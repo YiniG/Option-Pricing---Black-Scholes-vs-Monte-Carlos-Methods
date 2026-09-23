@@ -1,0 +1,8 @@
+For American options and exotic option etc that we usually cannot price with the BS model, how can we verify FDM price and greeks are correct?
+
+Especially when the market is illiquid, we don't have market prices for those instruments over the long term.
+
+
+Numerical Methods (NM) Cross-Validation: Use different NM architectures to solve PDE or simulate asset paths. For ex: comparing outputs from Binomial Tree Vs FDM or MC simulation (incl. LSM method)
+Finite Difference bumping: Calculate Greeks using bumping.  Stability can be tested by varying a) step size and b) comparing with algorithmic differentiation
+Degeneracy Testing: This is the boundary method where you deconstruct complex structures into vanilla - very similar to Peter Carr's static hedging that I mentioned during the session - and compare values
