@@ -7,7 +7,7 @@ Pricing a European call and a binary cash-or-nothing call under geometric Browni
 | File | Contents |
 |---|---|
 | `Option Pricing with Monte Carlo Simulation and BS Model.ipynb` | The main study: BS benchmarks, Euler-Maruyama / Milstein / exact simulation, convergence analysis, antithetic variates, sensitivity analysis |
-| `Options & Greeks Interview Prep.pdf` | 110 interview questions on options and Greeks for quant, valuation and market-risk roles. English answers with Chinese explanations |
+| `Options & Greeks Interview Prep.pdf` | 110 interview questions on options and Greeks for quant, valuation and market-risk roles. 
 | `Practical Solutions` | Notes on validating FDM prices and Greeks for American and exotic options when there is no closed form or liquid market price |
 
 ## Set-up
